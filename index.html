@@ -446,6 +446,22 @@ ADD a TO b
 
 ---
 
+## Simula (1962)
+
+```simula
+Real Procedure Sigma (k, m, n, u);
+   Name k, u;
+   Integer k, m, n; Real u;
+Begin
+   Real s;
+   k:= m;
+   While k <= n Do Begin s:= s + u; k:= k + 1; End;
+   Sigma:= s;
+End;
+```
+
+---
+
 ## BASIC (1964)
 
 Beginner's All-purpose Symbolic Instruction Code
@@ -465,22 +481,6 @@ Beginner's All-purpose Symbolic Instruction Code
 120 IF A$ = "Y" OR A$ = "y" THEN GOTO 30
 130 PRINT "Goodbye "; U$
 140 END
-```
-
----
-
-## Simula (1962)
-
-```simula
-Real Procedure Sigma (k, m, n, u);
-   Name k, u;
-   Integer k, m, n; Real u;
-Begin
-   Real s;
-   k:= m;
-   While k <= n Do Begin s:= s + u; k:= k + 1; End;
-   Sigma:= s;
-End;
 ```
 
 ---
